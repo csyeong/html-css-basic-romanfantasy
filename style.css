@@ -1,0 +1,238 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  color: #ab9972;
+}
+
+footer{
+  background-color: #928374;
+}
+
+.logo{
+  background-color: #3a2c34;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img1{
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.logo-img2{
+  display: none;
+  width: 300px;
+  height: 150px;
+}
+
+.user-box{
+  background-color: #3a2c34;
+  border-bottom: 2px solid #ab9972;
+}
+
+.user-box a{
+  color: #ab9972;
+  text-decoration: none;
+  margin-bottom: 4px;
+  padding-right: 7px;
+  padding-left: 7px;
+}
+
+.user-box a:hover{
+  font-weight: 600;
+}
+
+.nav-line{
+  border-bottom: 2px solid #ab9972;
+}
+
+.container-fluid a{
+  color: #ab9972;
+  font-weight: 400;
+}
+
+.container-fluid a:hover{
+  font-weight: 600;
+  color: #ab9972;
+}
+
+.search-btn{
+  border-color: #ab9972;
+  color: #ab9972;
+}
+
+.search-btn:hover{
+  border-color: #ab9972;
+  background-color: #ab9972;
+  color: white;
+}
+
+.menu-btn{
+  border-color: #ab9972;
+  color: #ab9972;
+}
+
+.main-item{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.col-6 div{
+  margin-bottom: 70px;
+}
+
+.col-6 div:hover{
+  transform: scale(1.1);
+  z-index: 10;
+}
+
+.card img{
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.book-box{
+  display: flex;
+  justify-content: space-between;
+}
+
+.book-line-img{
+  width: 50%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.book-line{
+  display: grid; /* Grid 활성화 */
+  place-items: center;
+}
+
+.event{
+  aspect-ratio: 2 / 0.8;
+  overflow: hidden;
+}
+
+.card-badge{
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+.title-div{
+  width: 50%;
+  margin: 10px 10px;
+}
+
+.review-title-div{
+  width: 50%;
+  margin: 10px 10px;
+}
+
+.title{
+  border-top: 2px solid #ab9972;
+  border-bottom: 2px solid #ab9972;
+  text-align: center;
+}
+
+.review-title{
+  background-color: #ab9972;
+  color: white;
+  text-align: center;
+}
+
+.review-title-id{
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 5px;
+}
+
+.card-body button{
+  width: 30%;
+  background-color: #ab9972;
+  border: 1px solid #ab9972;
+}
+
+.card-body button:hover{
+  background-color: #928374;
+  border: 1px solid #928374;
+}
+
+.footer-first{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-first-info{
+  color: #3a2c34;
+}
+
+.icon{
+  border-radius: 50%;
+  background-color: #3a2c34;
+  padding: 15px;
+}
+
+.footer-second{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer-second a{
+  text-decoration: none;
+  color: #e0dccf;
+}
+
+.footer-last{
+  color: #e0dccf
+}
+
+.footer-second a:hover{
+  font-weight: 600;
+}
+
+.test{
+  border: 1px solid red;
+}
+
+@media (max-width: 768px){
+  .logo-img1{
+    display: none;
+  }
+
+  .logo-img2{
+    display: block;
+  }
+
+  .main-item{
+    display: block;
+  }
+
+  .col-6 div{
+    margin-bottom: 10px;
+  }
+
+  .title-div{
+    width: 100%;
+    margin: 10px 0px;
+  }
+
+  .footer-first{
+    display: block;
+    text-align: center;
+  }
+
+  .icon-box{
+    margin-top: 20px;
+  }
+
+  .review-title-div{
+    display: none;
+  }
+}
