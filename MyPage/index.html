@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+</head>
+
+<body>
+  <header>
+    <div class="logo pt-3 pb-3">
+      <img class="logo-img1" src="img/logo1.webp" />
+      <img class="logo-img2" src="img/logo2.jpg" />
+    </div>
+    <div class="d-flex justify-content-end pe-3 user-box">
+      <a href="#">회원가입</a>
+      <a href="#">로그인</a>
+      <a href="#" class="position-relative">
+        장바구니
+        <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill text-bg-secondary"">
+          0
+          <span class="visually-hidden">cart</span>
+        </span>
+      </button>
+    </div>
+    <nav class="navbar navbar-expand-lg nav-line" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">소설 & 만화</a>
+        <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon menu-btn"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">베스트 셀러</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">추천</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                장르
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">동양</a></li>
+                <li><a class="dropdown-item" href="#">서양</a></li>
+                <li><a class="dropdown-item" href="#">현대</a></li>
+              </ul>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#">이벤트</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success search-btn" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div id="carouselExample" class="carousel slide pt-1" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://i.ytimg.com/vi/qg71HbbouTc/maxresdefault.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.ytimg.com/vi/-gTDh0NHFKs/maxresdefault.jpg" class="d-block w-100" >
+        </div>
+        <div class="carousel-item">
+          <img src="https://neumediaworks.com/wp-content/uploads/2022/08/%EC%B9%B4%EC%B9%B4%EC%98%A4%EC%97%94%ED%84%B0%ED%85%8C%EC%9D%B8%EB%A8%BC%ED%8A%B8_%EC%97%AC%EC%A3%BC%EC%9D%B8%EA%B3%B5%EC%9D%98-%EC%98%A4%EB%B9%A0%EB%A5%BC-%EC%A7%80%ED%82%A4%EB%8A%94-%EB%B0%A9%EB%B2%95_%EC%B5%9C%EC%A2%85.mp4_20220802_153555.470.jpg" class="d-block w-100" >
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+    <div class="container pt-5 main-item">
+      <div class="title-div">
+        <h1 class="title">Best Seller</h1>
+        <div class="row pt-3">
+          <div class="col-6">
+            <div class="card" >
+              <span class="badge text-bg-secondary text-bg-danger card-badge">Sale</span>
+              <img src="https://i.namu.wiki/i/kuHIOWc0HttGRJtD4xup5ZpegvFsoR1cxtpNR8eBP4iMpviF8zbfsuDpKGP7acI3MS75cyFcX49gdj-7d2xEdw.webp" class="card-img-top">
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card" >
+              <span class="badge text-bg-secondary text-bg-danger card-badge">Hit</span>
+              <img src="https://i.namu.wiki/i/SPz7zizbxLoacCxXNAsXz4ahB2Q8xxAkZ--JMRCDbvwuzg15hPEInt3Q6QX1dfImX4JrxDssjzKuCvsor3npxQ.webp" class="card-img-top" alt="...">
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card" >
+              <img src="https://i.namu.wiki/i/4f6ZcZOfG6oSgygUFYyl6mnZn754stApGyrEndLvcdR4mUPhnJOMmx_4Z8uMUz241y-PrQmA-SknpR-GRJLbcA.webp" class="card-img-top" alt="...">
+            </div>
+          </div>
+
+          <div class="col-6">
+            <div class="card" >
+              <img src="https://i.namu.wiki/i/rFCyycSskBhQV6DfbTsuNOkRXWV_xVmKHQVWU7ri1KB3LOs0ZbeXJbxw4h0fRRKXljpLihs-Zw3CkHIxOcGz8g.webp" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="review-title-div">
+        <!-- text ~~~ -->
+        <h1 class="review-title">Best Review</h1>
+        <div class="card mt-4" style="width: 100%;">
+          <div class="row">
+            <img class="col-4" src="https://i.namu.wiki/i/ezrm6CqC6BCJ5vOIemo7fow5F5GgSyXKTVcv82-waTpB9tuQmATJqNCKPaL3HRE0a62aSLgdMxVu2wzO9vONIw.webp" alt="...">
+  
+            <div class="card-body col-8 center">
+              <div class="mb-1">
+                <span class="badge text-bg-secondary text-bg-danger">Best</span>
+                <span class="card-title review-title-id">오쪼쪼 우리 리리</span>
+              </div>
+              <h6 class="card-subtitle mb-2 text-body-secondary">아빠가 힘을 숨김 88화</h6>
+              <p class="card-text">88화까지 본 선발대입니다. <br>또 육아물인가 싶었는데 기존의 육아물들과는 다릅니다. 일단 원작에 목메지 않는다는게 최고입니다. <br>...</p>
+              <button type="button" class="btn btn-primary btn-sm position-absolute bottom-0 end-0 me-3 mb-3">지금 보러가기</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-1" style="width: 100%;">
+          <div class="row">
+            <img class="col-4" src="https://image.yes24.com/goods/138207603/XL" alt="...">
+
+            <div class="card-body col-8 center">
+              <div class="mb-1">
+                <span class="badge text-bg-secondary text-bg-danger">Best</span>
+                <span class="card-title review-title-id">빙의트럭 시급하다</span>
+              </div>
+              <h6 class="card-subtitle mb-2 text-body-secondary">이번생은 가주가 되겠습니다 123화</h6>
+              <p class="card-text">고구마 싫어하는 분들 당장 이생가 안보고 뭐하세요.<br>여기는 사이다 파티라서 목이 단 한순간도 멕히지 않는다구요!!!<br>🍾🍾🍾🍾🍾🍾</p>
+              <button type="button" class="btn btn-primary btn-sm position-absolute bottom-0 end-0 me-3 mb-3">지금 보러가기</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-1" style="width: 100%;">
+          <div class="row">
+            <img class="col-4" src="https://contents.kyobobook.co.kr/sih/fit-in/400x0/pdt/9791168526525.jpg" alt="...">
+
+            <div class="card-body col-8 center">
+              <div class="mb-1">
+                <span class="badge text-bg-secondary text-bg-danger">Best</span>
+                <span class="card-title review-title-id">취향은존중해주삼</span>
+              </div>
+              <h6 class="card-subtitle mb-2 text-body-secondary">무림세가 천대받는 손녀 딸이 되었다 2화</h6>
+              <p class="card-text">여주 엄마 좀 그만 죽여라...<br>왜 서사를 부여하겠다고 맨날 엄한 엄마를 죽이냐고ㅠㅠㅠㅠ<br>여주에게 부모님을 그만 뺏어라😂😂</p>
+              <button type="button" class="btn btn-primary btn-sm position-absolute bottom-0 end-0 me-3 mb-3">지금 보러가기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container pt-1 main-item">
+      <div class="review-title-div">
+        <!-- text ~~~ -->
+        <h1 class="review-title">유저들이 뽑은 명대사</h1>
+
+        <div class="book-box pt-3">
+          <div class="card text-bg-dark book-line-img me-1">
+            <img src="https://dn-img-page.kakao.com/download/resource?kid=cXgBV2/hyoXCUAS5z/kHc4nbD2oxbsneVk5tOIxk&filename=o1" class="card-img opacity-25" alt="...">
+            <div class="card-img-overlay book-line">
+              <p class="card-text">선례가 단번에 완벽할 필요는 없는 것 아닐까요?<br>우리는 조금씩이라도 나아지면 됩니다. 자신에 대해 고민하는 만큼 사람은 나아지는 법이니. 세상도 세상이 고민하는 만큼 세상도 나아지겠죠.<br>계속해서 고민을 쌓아가는게 우리 일입니다.</p>
+              <p class="card-text text-center"><small>펜들턴 혁명 225화 中</small></p>
+            </div>
+          </div>
+          <div class="card text-bg-dark book-line-img ms-1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_d9vqaN5262R-dta_alThoVluvXHPlHtF2g&s" class="card-img opacity-25" alt="...">
+            <div class="card-img-overlay book-line">
+              <p class="card-text">원치 않는 구원과 원치 않는 사랑을 받았을 때, 게다가 그가 아무것도 바라지 않는다 거짓을 말할 때. 과연 그 거짓말을 믿는 체할 수 있을까? 모른 척 그를 무시할 수 있을까?<br>그 구원을 위해 모든 것을 버린 이를.</p>
+              <p class="card-text text-center"><small>북북서로 항해하라 2권 中</small></p>
+            </div>
+          </div>
+        </div>
+        <div class="book-box pt-1">
+          <div class="card text-bg-dark book-line-img me-1">
+            <img src="https://img.ridicdn.net/cover/4805000003/xxlarge" class="card-img opacity-25" alt="...">
+            <div class="card-img-overlay book-line">
+              <p class="card-text">이제 난 당신을 알아 버렸고, 당신 같은 사람은 어디에도 없지요.<br>그렇지만 우리는 영원히 만날 수 없으니, 이것을 사랑이라 부를 수도 없군요.<br>이제 내게 남겨진 몰락이 눈앞에 선합니다.</p>
+              <p class="card-text text-center"><small>답장을 주세요, 왕자님 中</small></p>
+            </div>
+          </div>
+          <div class="card text-bg-dark book-line-img ms-1">
+            <img src="https://i.namu.wiki/i/54zx5ZRil87MUcM_NU6nNT8xPmMTM_gc2b8u-KvefeVYk2YgX5Eho40tx4FkUz4xnb1eb5Wq2rWz8Cux6W6lTw.webp" class="card-img opacity-25" alt="...">
+            <div class="card-img-overlay book-line">
+              <p class="card-text">활자로 만든 세상에 사람이 둘 서 있었다.</p>
+              <p class="card-text text-center"><small>리셋팅 레이디 中</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide  mt-1" data-bs-ride="carousel">
+          <div class="carousel-inner event">
+            <div class="carousel-item active">
+              <img src="https://www.seoulfn.com/news/photo/201909/355499_140579_1154.png" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://dn-img-page.kakao.com/download/resource?kid=cHreTG/hAd4jKFBiB/x5X7jkFbfNILZVtvgNbWVK" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="title-div">
+        <h1 class="title">NEW</h1>
+
+        <div class="row pt-3">
+            <div class="col-6">
+              <div class="card" >
+                <img src="https://i.namu.wiki/i/aYYb8Nrh8xF8bn8anVK7rSiUOqu-2-8kt9vwX1QByO_dn8YJVXNjuQ60wKY6li4AOn8J9DGHXi8D8ZoKLxb3kQ.webp" class="card-img-top" alt="...">
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="card" >
+                <img src="https://page-images.kakaoentcdn.com/download/resource?kid=cdAP5N/hzXatvH0Pf/sGDDVDyRci8D77VkvRzeDk&filename=o1/dims/resize/384" class="card-img-top" alt="...">
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="card" >
+                <span class="badge text-bg-secondary text-bg-danger card-badge">Hit</span>
+                <img src="https://i.namu.wiki/i/trq8c1o69SGrFd5oXJ7DPDm3DfHHjS8UdZUitSHBgBFYdf2rm7aSceBN-DSqWE-Ej20dm1bYR9HaTnDtsSslCw.webp" class="card-img-top" alt="...">
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="card">
+                <img src="https://mblogthumb-phinf.pstatic.net/MjAyMzEwMDNfOTkg/MDAxNjk2MzI1MjE0NDM2.6jHIvQMwDKcxLtS1YVkTS63KY0glxzLF-y2fsHh8hFog.iT9_ow4FcDYgr6WzD-jyOKEQx4fOsPoJG94UNZK1qNkg.JPEG.oran_host123/Screenshot%EF%BC%BF20231003%EF%BC%BF182353.jpg?type=w800" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="pt-5 pb-5">
+    <div class="container footer-first">
+      <div class="footer-first-info">
+        <div>ROMANCE FANTASY</div>
+        <div>대표자 : 최소영</div>
+        <div>사업자번호 : 123 - 45 - 67890</div>
+        <div>주소 : 서울시 가가구 나나로 123번길 45, 101호</div>
+      </div>
+      <div class="icon-box">
+        <span class="icon"><i class="fa-brands fa-youtube"></i></span>
+        <span class="icon"><i class="fa-brands fa-instagram"></i></span>
+        <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+      </div>
+    </div>
+    <div class="container footer-second pt-3">
+      <span><a href="#">이용약관</a></span>
+      <span><a href="#">개인정보처리방침</a></span>
+      <span><a href="#">환불규정</a></span>
+      <span><a href="#">FAQ</a></span>
+    </div>
+    <div class="container footer-last">
+      Copyright (c) 2024 ROMANCE FANTASY. ALL Rights Reserved
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>
