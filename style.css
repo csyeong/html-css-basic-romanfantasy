@@ -178,6 +178,14 @@ footer{
   padding: 15px;
 }
 
+.icon a{
+  color: #ab9972;
+}
+
+.icon a:hover{
+  color: #e0dccf;
+}
+
 .footer-second{
   display: flex;
   justify-content: space-between;
@@ -190,7 +198,7 @@ footer{
 }
 
 .footer-last{
-  color: #e0dccf
+  color: #e0dccf;
 }
 
 .footer-second a:hover{
@@ -199,6 +207,30 @@ footer{
 
 .test{
   border: 1px solid red;
+}
+
+.fade-wrap{
+  transition: 2s;
+  opacity: 0;
+  position: relative;
+  left: -50px;
+}
+
+.fade-wrap.fade-in{
+  opacity: 1;
+  left: 0;
+}
+
+.fade-wrap-right{
+  transition: 2s;
+  opacity: 0;
+  position: relative;
+  right: -50px;
+}
+
+.fade-wrap-right.fade-in{
+  opacity: 1;
+  right: 0;
 }
 
 @media (max-width: 768px){
@@ -234,5 +266,27 @@ footer{
 
   .review-title-div{
     display: none;
+  }
+
+  .fade-wrap{
+    bottom: -50px;
+    left: 0;
+  }
+  
+  .fade-wrap.fade-in{
+    opacity: 1;
+    bottom: 0;
+    left: 0;
+  }
+
+  .fade-wrap-right{
+    bottom: -50px;
+    right: 0;
+  }
+  
+  .fade-wrap-right.fade-in{
+    opacity: 1;
+    bottom: 0;
+    right: 0;
   }
 }
